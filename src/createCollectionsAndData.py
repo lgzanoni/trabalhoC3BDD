@@ -1,6 +1,5 @@
 import logging
 from conection.mongo_queries import MongoQueries
-from conection.oracle_queries import OracleQueries
 import json
 
 LIST_OF_COLLECTIONS = ["fornecedores", "clientes", "produtos", "pedidos", "itens_pedido"]
